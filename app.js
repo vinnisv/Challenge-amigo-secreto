@@ -41,5 +41,5 @@ function sortearAmigo() {
     const amigoSorteado = amigos[indiceSorteado]; 
 
     const resultado = document.getElementById('resultado'); 
-    resultado.textContent = `O amigo sorteado foi: ${amigoSorteado}`; 
+    resultado.textContent = `O amigo sorteado foi: ${amigoSorteado}`.toUpperCase(); 
 } 
